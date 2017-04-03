@@ -39,7 +39,7 @@ public class PracticalTest01Var04Service extends Service {
     @Override
     public void onDestroy() {
         Log.d(Constants.TAG, "onDestroy() method was invoked");
-        processingThread.stop();
+        processingThread.stopThread();
         super.onDestroy();
     }
 
