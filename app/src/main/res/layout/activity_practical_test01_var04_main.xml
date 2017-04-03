@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="practicaltest01var04.eim.systems.cs.pub.ro.practicaltest01var04.PracticalTest01Var04MainActivity">
+
+<Button
+    android:id="@+id/navigate_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:text="Navigate to secondary activity" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/top_left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_gravity="center"
+            android:text="Top Left" />
+
+        <Button
+            android:id="@+id/top_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_gravity="center"
+            android:text="Top Right" />
+
+        <Button
+            android:id="@+id/center_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_gravity="center"
+            android:text="Center" />
+
+        <Button
+            android:id="@+id/bottom_left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:layout_gravity="center"
+            android:text="Bottom Left" />
+
+        <Button
+            android:id="@+id/bottom_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:layout_gravity="center"
+            android:text="Bottom Right" />
+
+    </GridLayout>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:ems="8"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:enabled="false"/>
+
+</LinearLayout>
+
